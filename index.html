@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>barbearia</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="bg-home">
+        <header>
+            <nav class="header-content container">
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="https://www.instagram.com/casadoslobos.barbershop/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/casadoslobos.barbershop/?locale=pt_BR" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=5596999131110&text&type=phone_number&app_absent=0" target="_blank">
+                        <i class="fa-brands fa-whatsapp fa-2x"></i>
+                    </a>
+                </div>
+
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="400">
+                    <img
+                        data-aos="flip-up"
+                        data-aos-delay="400"
+                        data-aos-duration="1500"
+                        src="assets/logo.svg"
+                        alt="logo da barbearia">
+                </div>
+
+                <div>
+                    <a class="header-btn" href="https://api.whatsapp.com/send/?phone=5596999131110&text&type=phone_number&app_absent=0" data-aos="fade-down" target="_blank">Agendar horário</a>
+                </div>
+            </nav>
+
+            <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+
+                <div class="slides fade">
+                    <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
+                    <p>Horário de funcionamento: 10:00 ás 21:00</p>
+                    <a 
+                    href="https://api.whatsapp.com/send/?phone=5596999131110&text&type=phone_number&app_absent=0" 
+                    class="btn-contact" 
+                    target="_blank">
+                    Agendar horário
+                    </a>
+                </div>
+                <div class="slides fade">
+                    <img src="assets/tercadeles.png" alt="">
+                    <a 
+                    href="https://api.whatsapp.com/send/?phone=5596999131110&text&type=phone_number&app_absent=0" 
+                    class="btn-contact" 
+                    target="_blank">
+                    Agendar horário
+                    </a>
+                </div>
+                <footer class="btn-slides">
+                        <div class="dot-box">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>                
+                </footer>
+            </main>
+        </header>
+    </div>
+<section class="about">
+    <div class="container about-content">
+        <div data-aos="zoom-in" data-aos-delay="100">
+            <img 
+                src="assets//images.svg"
+                alt="imagem sobre a barbearia">
+        </div>
+
+        <div class="about-description" data-aos="zoom-out-left" data-aos-delay="100">
+            <h2>Sobre</h2>
+            <p> Com mais de 5 anos de história, somos mais do que uma barbearia — somos um ponto de encontro, estilo e confiança para quem busca um atendimento de qualidade em um ambiente moderno, acolhedor e cheio de personalidade.</p>
+            <p> Horario de Funrionamento <strong>10:00</strong> ás <strong>21:00</strong></p>
+        </div>
+    </div>
+</section>
+<section class="services"data-aos="fade-up" data-aos-delay="100">
+    <div class="services-content container">
+        <h2>Serviços</h2>
+        <p> Na barbearia mais estilosa de Macapá, dentro do Macapá Shopping, oferecemos um atendimento ágil e de qualidade — ideal pra quem quer cuidar do visual com conforto e sem perder tempo. </p>
+            <section class="haircuts">
+                <div class="haircut" data-aos="fade-left" data-aos-delay="100">
+                    <img src="assets/corte1.png" alt="corte de cabelo">
+                    <div class="haircut-info">
+                        <strong>Cortes Masculinos</strong>
+                        <button>R$45,00</button>
+                    </div>
+                </div>
+
+                <div class="haircut" data-aos="fade-down" data-aos-delay="150">
+                    <img src="assets/corte2.png" alt="corte de cabelo">
+                    <div class="haircut-info">
+                        <strong>Barba na Navalha</strong>
+                        <button>R$35,00</button>
+                    </div>
+                </div>
+
+                <div class="haircut" data-aos="fade-rigth" data-aos-delay="178">
+                    <img src="assets/corte3.png" alt="corte de cabelo">
+                    <div class="haircut-info">
+                        <strong>Pigmentação e Camuflagem</strong>
+                        <button>R$80,00</button>
+                    </div>
+                </div>
+            </section>
+    </div>
+</section>
+
+<div class="services">
+    <h2> Venha conhecer </h2>
+</div>
+
+<iframe
+width="100%"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8177293791987!2d-51.06560835974261!3d0.03118469996864803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d61e1fe22ae6521%3A0x37cb01458b550050!2sBarbearia%20Casa%20dos%20Lobos!5e0!3m2!1spt-BR!2sbr!4v1745359245938!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+<footer class="footer" data-aos="zoom-in-up" data-aos-delay="200">
+    <div class="footer-icons" >
+        <a href="#">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+        </a>
+    </div>
+    <div>
+        <img src="assets/logo.svg" alt="">
+    </div>
+    <p>Cory.2025- joecyPontes . todos os direitos reservados</p>
+    <a href="https://wa.me/5596981292305" target="_blank">WhatsApp</a>
+    <a href="https://github.com/joecyPontes" target="_blank">GitHub</a>
+</footer>
+
+<a href="wa.me/5596999131110"
+    class="btn-wpp"
+    target="_blank"
+    data-aos="zoom-in-up"
+    data-aos-delay="150"
+>
+    <img src="assets/whatssapp.svg" alt="">
+    <span class="tooltop-text">agende seu horario</span>
+</a>
+
+<script src="scripts.js"></script>
+<script src="handle.js"></script>
+</body>
+</html>
